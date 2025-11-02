@@ -1,2 +1,5 @@
 fastapi
 uvicorn
+pytest>=7.4.0
+httpx>=0.24.1  # Pour le TestClient de FastAPI
+pytest-asyncio>=0.21.1
